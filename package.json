@@ -1,0 +1,31 @@
+{
+	"name": "next-starter-landing",
+	"version": "1.0.0",
+	"description": "Next.js Starter - Landing with Form",
+	"main": "index.js",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"export": "npm run build && next export",
+		"start": "next start",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ruie/next-starter-landing.git"
+	},
+	"author": "Ruie Dela Peña",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ruie/next-starter-landing/issues"
+	},
+	"homepage": "https://github.com/ruie/next-starter-landing#readme",
+	"dependencies": {
+		"next": "10.0.1",
+		"react": "17.0.1",
+		"react-dom": "17.0.1"
+	},
+	"devDependencies": {
+		"tailwindcss": "1.9.6"
+	}
+}
